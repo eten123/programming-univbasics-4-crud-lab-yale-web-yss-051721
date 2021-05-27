@@ -20,9 +20,10 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["arrays!", 2, 3, 4]
-  "arrays!" = array.shift
-   p "arrays!"
+  array = ["arrays!", 1, 2, 3, 4]
+  "arrays!" = remove_element_from_end_of_array.shift
+   
+
 end
 
 def remove_element_from_start_of_array(array)
