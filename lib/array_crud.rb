@@ -21,7 +21,7 @@ end
 
 def remove_element_from_end_of_array(array)
   array = ["arrays!", 1, 2, 3, 4]
-  "arrays!" = remove_element_from_end_of_array.shift
+  "arrays!" = array.shift
    
 
 end
